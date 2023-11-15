@@ -1,0 +1,161 @@
+.container{
+    font-family: Okra, Helvetica, sans-serif;;
+}
+.topsection{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    display: inline-table; 
+}
+.navbar{
+    position: absolute;top: 8px;
+    left: 700px;
+    width: 800px;
+    height: 50px;
+}
+ul.nav{
+    list-style-type: none;
+}
+.nav a{
+    text-decoration: none;
+    float: left;
+    margin: 10px 20px;
+    color: rgb(245, 227, 227);
+    font-size: larger;
+    cursor: pointer;
+}
+.image{
+    background-image:linear-gradient(black,black), url(zomatobg.jpg);
+   filter: brightness(50%);
+    display: inline;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.text img{
+    display: inline;
+    width: 300px;
+    height: 60px;
+}
+.para{
+    line-height: 1.2;
+    font-weight: 300;
+    
+}
+.middlesection{
+    width: 100%;
+    height: 40%;
+    font-size: x-large;
+    font-family:Helvetica
+}
+.heading{
+    text-align: center;
+    line-height: 1.2;
+    color: rgb(70, 67, 67);
+    margin: 0px;
+}
+.icon{
+    display: inline;
+    width: 70px;
+    margin-top: 30px;
+}
+.para1{
+    font-size: x-large;
+    color: gray;
+    text-align: center;
+}
+.statelink{
+    margin: 50px 90px;
+    width: 100%;
+    height: 500px;
+}
+.state{
+    float: left;
+    width: 320px;
+    height: 50px;margin: 20px 10px;
+    text-align: center;
+    padding-top: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(232, 232, 232);
+}
+.statelink a{
+    text-decoration: none;
+    font-size:x-large;
+    display: block;
+    color: rgb(50, 49, 49);
+}
+.footer{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(250, 246, 246);
+}
+.top{
+    width: 100%;
+    height:60px ;
+}
+.logo{
+    width: 200px;
+    height: 50px;
+    float: left;
+}
+.logo img{
+    width: 150px;
+    height: 30px;
+    margin:30px 30px;
+}
+.country{
+width:150px ;
+height:50px ;
+float:left;margin-left: 600px;
+margin-top: 20px;
+}
+.language{
+    width:150px ;
+    height:50px ;
+    float:left;margin-top: 20px;
+}
+.dropdown{
+    width: 120px;
+    height: 40px;
+    font-size: larger;
+    text-align: right;
+    float: right;
+}
+.footercontent{
+    width: 100%;
+    height: 300px;
+}
+.section{
+    width: 230px;
+    height: 200px;
+    float: left;
+}
+ul.list{
+    list-style-type: none;
+}
+.list a{
+    text-decoration: none;
+    color: gray;
+    display: block;
+    font-size: larger;
+    line-height: 1.5rem;
+}
+.terms{
+    width: 100%;
+    height: 30px;
+    margin-left: 30px;
+    color: 
+    rgb(101, 98, 98);
+}
+
